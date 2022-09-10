@@ -1,0 +1,89 @@
+/* The below css is for links in nav  */
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.nav-link {
+    padding-top: 12px !important;
+    color      : black;
+}
+
+.nav-link:hover {
+    color     : white;
+    background: black;
+}
+
+.footer{ 
+    margin-top: auto !important;
+}
+/* This is for the div of night owl  */
+#n {
+    width      : 35px;
+    margin-top : -30px;
+    position   : fixed;
+    margin-left: 92% !important;
+    z-index    : 1 !important;
+
+}
+
+/* This is for the <p> under night owl div */
+#night {
+    margin-top     : 30px;
+    text-decoration: none;
+    cursor         : pointer;
+    font-size      : 25px;
+    margin-left    : -6px !important;
+    padding-bottom : 2px;
+}
+
+#night:hover {
+    font-size: 24px !important;
+}
+
+
+
+
+
+/* Font-Awesome */
+.fa-lightbulb {
+    color    : black;
+    font-size: 25px !important;
+}
+
+
+/***********Scroll Bar******************/
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /*box-shadow: inset 0 0 1px ; */
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /*background: #212529; */
+  background: gray;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
+
+@media screen and (max-width: 480px){
+#activeTab>span{
+    display: none;
+}
+#activeTab:after{
+    content: "PM";
+}
+    
+}
